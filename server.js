@@ -36,7 +36,7 @@ const init = () => {
       .then(response => {
         switch (response.menu) {
         case 'Departments':
-            departments();
+            department();
             break;
         case 'Employees':
             employees();
