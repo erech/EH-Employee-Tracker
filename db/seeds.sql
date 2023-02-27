@@ -6,7 +6,7 @@ VALUES
 ('R&D');
 
 
-INSERT INTO job (title, salary, department_id)
+INSERT INTO role (title, salary, dept_id)
 VALUES 
 ('Engineer Scientist', 70000, 1),
 ('Chemist', 70000, 2),
@@ -15,7 +15,7 @@ VALUES
 ('Senior Chemist', 175000, 2),
 ('Staff Scientist', 200000, 3);
 
-INSERT INTO employee (first_name, last_name, job_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
 ('Rick', 'Chen', 1, NULL),
 ('Johnny', 'Suh', 2, 1),
